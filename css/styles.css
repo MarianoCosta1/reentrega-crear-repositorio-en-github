@@ -504,7 +504,7 @@ section {
     width: 400px; }
   .contenedor_foto_replanteo {
     width: 400px; }
-  .subtitulo_index {
+  .subtitulo_index, .relevamiento_index {
     font-size: 25px;
     color: #71ff33; }
   .contenedor_subtitulo_replanteo {
@@ -575,7 +575,7 @@ section {
   .contenedor_titulo {
     width: min-content;
     width: 40%; }
-  .subtitulo_index {
+  .subtitulo_index, .relevamiento_index {
     font-size: 20px;
     font-family: georgia;
     display: block;
@@ -705,7 +705,7 @@ section {
   .contenedor_titulo {
     width: min-content;
     width: 40%; }
-  .subtitulo_index {
+  .subtitulo_index, .relevamiento_index {
     font-family: georgia;
     display: block;
     margin-top: 25px;
@@ -1282,6 +1282,13 @@ section {
   font-size: 30px;
   padding: 1rem; }
 
-.subtitulo_index {
+.subtitulo_index, .relevamiento_index {
   background-color: aqua;
   font-size: 25px; }
+
+.relevamiento_index {
+  border: 2px solid red; }
+
+.contenedorgeneral1 {
+  width: 400px;
+  height: 400px; }
