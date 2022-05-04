@@ -10,7 +10,7 @@ $tamañotitulo: 800px;
 
 
     $estilos: (
-        color: violet,
+        
         centro: center,
         tFuente: 30px,
         1rem : 1rem
@@ -41,9 +41,7 @@ $tamañotitulo: 800px;
        height: $height; 
    }
 
-   .contenedorgeneral1{
-       @include sizes (400px , 400px);
-   }
+  
        
    
 
